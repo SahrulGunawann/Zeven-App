@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#114232</color>
+    <color name="colorPrimaryDark">#0D3126</color>
+    <color name="colorAccent">#C68E17</color>
+    <color name="zevenBackground">#F9F6F0</color>
+    <!-- Variabel ini yang akan kita pakai di semua style splash -->
+    <color name="splash_background">#F9F6F0</color>
+</resources>

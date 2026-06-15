@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Zeven</string>
+    <string name="title_activity_main">Zeven</string>
+    <string name="package_name">com.zeven.marketplace</string>
+    <string name="custom_url_scheme">com.zeven.marketplace</string>
+    <string name="server_client_id">17706148970-5hn2kgmrlm8o0mepr21qra1f8gkm46bq.apps.googleusercontent.com</string>
+</resources>

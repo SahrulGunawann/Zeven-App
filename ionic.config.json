@@ -1,0 +1,7 @@
+{
+  "name": "Zeven",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "174266874656",
+    "project_id": "zeven-marketplace",
+    "storage_bucket": "zeven-marketplace.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:174266874656:android:863744f93b76aec8913545",
+        "android_client_info": {
+          "package_name": "com.zeven.marketplace"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtXinl0gvym4NdcRwb945jFqmWUfr7Z0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
