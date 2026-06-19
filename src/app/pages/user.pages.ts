@@ -1587,17 +1587,12 @@ export class EditProfilePage implements OnInit {
       payload.current_password = this.userData.current_password;
     }
 
-    // 1. Update Avatar if selected
-    if (this.selectedFile) {
-      const formData = new FormData();
-      formData.append('avatar', this.selectedFile);
-      this.authService.updateAvatar(formData).subscribe({
-        next: () => this.updateInfo(payload),
-        error: (err) => this.handleError(err)
-      });
-    } else {
-      this.updateInfo(payload);
+    // Mengirim avatar sebagai string Base64 dalam satu payload terpadu
+    if (this.avatarPreview) {
+      payload.avatar_base64 = this.avatarPreview;
     }
+
+    this.updateInfo(payload);
   }
 
   private updateInfo(payload: any) {
